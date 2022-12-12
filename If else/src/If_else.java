@@ -4,8 +4,8 @@ public class If_else {
 
         String name = "Christian";
 
-        if (name.length() > 9){
-            System.out.println( "it's even " + name.length() %2 );
+        if (name.length() %2 == 0 ){
+            System.out.println( "it's even ");
         }else{
             System.out.println("it' odd");
 
